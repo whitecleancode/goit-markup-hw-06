@@ -109,7 +109,8 @@
                   placeholder="Введите текст"
                   rows="8"
                 ></textarea>
-                <div class="main-checkbox">
+                <!-- <div > -->
+                <label class="main-checkbox" for="agreement-checkbox">
                   <input
                     class="visually-hidden"
                     type="checkbox"
@@ -117,12 +118,13 @@
                     id="agreement-checkbox"
                   />
 
-                  <label class="modal-checkbox" for="agreement-checkbox"></label>
+                  <div class="modal-checkbox"></div>
                   <p class="modal-item checkbox">
                     Соглашаюсь с рассылкой и принимаю
                     <a class="checkbox-link" href="">Условия договора</a>
                   </p>
-                </div>
+                </label>
+                <!-- </div> -->
                 <button class="modal-button" type="submit">Отправить</button>
               </div>
             </form>
@@ -477,8 +479,8 @@
         </div>
         <div class="ftr-box-three">
           <p class="ftr-txt">Подпишитесь на рассылку</p>
-          <div class="ftr-form">
-            <form>
+          <div class="">
+            <form class="ftr-form">
               <label for="user-email" class="ftr-label">
                 <input
                   class="ftr-type"
