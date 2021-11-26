@@ -1,2 +1,1 @@
-# goit-markup-hw-05
-position/animation
+https://whitecleancode.github.io/goit-markup-hw-06/
